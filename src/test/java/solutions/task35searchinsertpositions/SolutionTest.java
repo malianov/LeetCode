@@ -8,7 +8,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class SolutionTest {
 
     @Nested
-    @DisplayName("Test method: isEmpty()")
+    @DisplayName("Test method: searchInsert(int[] nums, int target)")
     class Task35 {
 
         public Solution solution;
