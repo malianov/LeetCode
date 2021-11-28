@@ -11,7 +11,7 @@ import static org.junit.jupiter.api.Assertions.*;
 class SolutionTest {
 
     @Nested
-    @DisplayName("Test method: solution()")
+    @DisplayName("Test method: search(int[] nums, int target)")
     class Task704 {
 
         public Solution solution;
