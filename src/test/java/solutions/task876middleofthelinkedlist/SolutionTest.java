@@ -34,10 +34,10 @@ class SolutionTest {
             int[] expected = {3,4,5};
 
             // when
-            int[] result = solution.middleNode(head);
+            //int[] result = solution.middleNode(head);
 
             // then
-            assertArrayEquals(expected, result);
+            //assertArrayEquals(expected, result);
         }
 
         @DisplayName("Test 2")
@@ -48,10 +48,10 @@ class SolutionTest {
             int[] expected = {4,9,9,49,121};
 
             // when
-            int[] result = solution.sortedSquares(nums);
+            //int[] result = solution.sortedSquares(nums);
 
             // then
-            assertArrayEquals(expected, result);
+            //assertArrayEquals(expected, result);
         }
     }
 }
