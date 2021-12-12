@@ -36,7 +36,7 @@ class SolutionTest {
             int[] result = solution.twoSum(numbers, target);
 
             // then
-            assertTrue(Arrays.equals(result, expected));
+            assertArrayEquals(expected, result);
         }
 
         @DisplayName("Test 2")
@@ -51,7 +51,7 @@ class SolutionTest {
             int[] result = solution.twoSum(numbers, target);
 
             // then
-            assertTrue(Arrays.equals(result, expected));
+            assertArrayEquals(expected, result);
         }
 
         @DisplayName("Test 3")
@@ -66,7 +66,7 @@ class SolutionTest {
             int[] result = solution.twoSum(numbers, target);
 
             // then
-            assertTrue(Arrays.equals(result, expected));
+            assertArrayEquals(expected, result);
         }
     }
 }

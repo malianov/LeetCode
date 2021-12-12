@@ -16,12 +16,10 @@ public class Solution {
             char[] s2SubArray = Arrays.copyOfRange(s2Array, i,i + s1ArrayLength);
             Arrays.sort(s2SubArray);
 
-            System.out.println(s2SubArray);
             if (Arrays.equals(s2SubArray, s1Array)) {
                 return true;
             };
         }
-        System.out.println(s1Array);
         return false;
     }
 }
