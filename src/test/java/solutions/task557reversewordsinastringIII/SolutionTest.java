@@ -30,7 +30,6 @@ class SolutionTest {
 
             // when
             String result = solution.reverseWords(s);
-            System.out.println("RESULT = " + result);
 
             // then
             assertEquals(expected, result);
@@ -47,7 +46,7 @@ class SolutionTest {
             String result = solution.reverseWords(s);
 
             // then
-            assertEquals(result, expected);
+            assertEquals(expected, result);
         }
     }
 }

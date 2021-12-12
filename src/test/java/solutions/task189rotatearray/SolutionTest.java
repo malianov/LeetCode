@@ -35,7 +35,7 @@ class SolutionTest {
             solution.rotate(nums, k);
 
             // then
-            assertTrue(Arrays.equals(nums, expected));
+            assertArrayEquals(nums, expected);
         }
 
         @DisplayName("Test 2")
