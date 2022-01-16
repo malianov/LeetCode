@@ -2,19 +2,19 @@ package solutions.task7reverseinteger;
 
 public class Solution {
     public int reverse(int x) {
-        StringBuilder stringBuilder = new StringBuilder();
-        stringBuilder.append(x).reverse();
+        int result = 0;
 
-        if (x < 0) {
-            stringBuilder.deleteCharAt(stringBuilder.length() - 1);
+        while (x != 0) {
+            result += x % 10;
+            x = x / 10;
+
+            if (x != 0) {
+                if (result * 10 / 10 != result) {
+                    return 0;
+                }
+                result *= 10;
+            }
         }
-
-        Double result = Double.valueOf(stringBuilder.toString());
-
-        if (result >= Integer.MAX_VALUE) {
-            return 0;
-        }
-
-        return (x < 0) ? result.intValue() * (-1) : result.intValue();
+        return result;
     }
 }
