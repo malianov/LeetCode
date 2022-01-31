@@ -1,8 +1,6 @@
 package solutions.task387firstuniquecharacterinastring;
 
-
 import java.util.*;
-import java.util.stream.Collectors;
 
 public class Solution {
     public int firstUniqChar(String s) {
